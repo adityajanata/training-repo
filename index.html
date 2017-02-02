@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Welcome to Aditya Janata Website</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <style type="text/css">
+      .parallax-window{
+        min-height: 400px;
+        background: transparent;
+      }
+      .parallax-window-extra{
+        min-height: 900px;
+        background: transparent;
+      }
+      .window-wrapper{
+        height: auto;
+        min-height: 400px;
+        background: #f0f0f0;
+        padding: 50px;
+      }
+      .window-wrapper-expand{
+        height: auto;
+        min-height: 600px;
+        background: #f0f0f0;
+        padding: 50px;
+      }
+      .navbar-style{
+        background: rgba(235, 250, 227, 0.8);
+      }
+
+      .header-space{
+        letter-spacing: 5px;
+      }
+      a:link{
+        text-decoration: none;
+        color: #333333;
+      }
+    </style>
+  
+  <!-- Navbar START-->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <!-- <img alt="Brand" src="img/brand.png" height="70px" width="auto">--> Brand
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="http://localhost/ajpweb">Home</a></li>
+        <li><a href="#who">Umm.. who?</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#help">Help</a></li>
+        <li><a href="#find-me">Find Me</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- Navbar END-->
+  <script src="https://use.fontawesome.com/8f85d074aa.js"></script>
+  </head>
+  <body>
+
+    <div class="parallax-window stop lazy" data-parallax="scroll" data-image-src="img/bg1.png">
+      <div style="padding-top: 600px; padding-bottom: 100px" class="text-center animated fadeIn">
+      <span id="stop"></span> <!-- animate scroll stop here, margin-top for giving some adjusment -->
+        <h1 style="color: #ffffff; margin-top: 150px; letter-spacing: 10px;">WELCOME!</h1>
+        <div style="color: #ffffff">Have a nice day</div>
+      </div>
+    </div>
+    <div class="window-wrapper" id="who">
+      <h1 class="text-center header-space">WHO AM I?</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+      </p>
+    </div>
+    <div class="parallax-window lazy" data-parallax="scroll" data-image-src="img/bg2.jpg"></div>
+    <div class="window-wrapper" id="about">
+      <h1 class="text-center header-space">FACT ABOUT ME</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+    <div class="parallax-window-extra lazy" data-parallax="scroll" data-image-src="img/bg3.jpg"></div>
+    <div class="window-wrapper" id="help">
+      <h1 class="text-center header-space">CHECK THIS SH*T</h1>
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+    <div class="parallax-window lazy" data-parallax="scroll" data-image-src="img/bg4.jpg"></div>
+    <div class="window-wrapper-expand" id="find-me">
+      <h1 class="text-center header-space">YOU CAN FIND ME ON:</h1>
+       <div class="row" style="margin-top: 50px;">
+         <div class="col-md-1 col-md-offset-4"><i class="fa fa-facebook fa-4x" aria-hidden="true"></i></div>
+         <div class="col-md-1"><h2><a href="https://facebook.com/adityajanata" target="_blank">adityajanata</a></h2></div>
+       </div>
+       <div class="row">
+         <div class="col-md-1 col-md-offset-4"><i class="fa fa-twitter fa-4x" aria-hidden="true"></i></div>
+         <div class="col-md-1"><h2><a href="https://twitter.com/@adityajanata" target="_blank">@adityajanata</a></h2></div>
+       </div>
+       <div class="row">
+         <div class="col-md-1 col-md-offset-4"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></div>
+         <div class="col-md-1"><h2><a href="https://instagram.com/adityajanata/" target="_blank">adityajanata</a></h2></div>
+       </div>
+       <div class="row">
+         <div class="col-md-1 col-md-offset-4"><i class="fa fa-youtube fa-4x" aria-hidden="true"></i></div>
+         <div class="col-md-1"><h2><a href="https://youtube.com/adityajanatapriya" target="_blank">adityajanatapriya</a></h2></div>
+       </div>
+       <div class="row">
+         <div class="col-md-1 col-md-offset-4"><i class="fa fa-envelope-o fa-4x" aria-hidden="true"></i></div>
+         <div class="col-md-1"><h2><a href="mailto:adityajanata@ymail.com" target="_blank">adityajanata@ymail.com</a></h2></div>
+       </div>
+    </div>
+
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.lazyload.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+
+
+    <script type="text/javascript">
+    // Auto scroll to "Stop" smoothly
+    $(document).ready(function () {
+    // Handler for .ready() called.
+    $('html, body').delay(1000).animate({ 
+        scrollTop: $('#stop').offset().top
+    },  2000);
+    });
+    
+    // Click and scroll automatically
+    $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top-70 //-70 berdasarkan navbar yang diterapkan agar tidak overlap saat auto-scroll
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+
+    // Parallax.js
+    $('.parallax-window').parallax();
+
+    // lazyload jQuery Plugin
+    $(function() {
+      $("img.lazy").lazyload();
+    });
+    </script>
+  </body>
+  </html>
