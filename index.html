@@ -155,13 +155,15 @@
 
 
     <script type="text/javascript">
-    // Auto scroll to "Stop" smoothly
-    $(document).ready(function () {
-    // Handler for .ready() called.
-    $('html, body').delay(1000).animate({ 
-        scrollTop: $('#stop').offset().top
-    },  2000);
-    });
+    window.onload = function () {
+      // Auto scroll to "Stop" smoothly
+      $(document).ready(function () {
+      // Handler for .ready() called.
+      $('html, body').delay(1000).animate({ 
+          scrollTop: $('#stop').offset().top
+      },  2000);
+      });
+    }
     
     // Click and scroll automatically
     $(function() {
@@ -186,6 +188,8 @@
     $(function() {
       $("img.lazy").lazyload();
     });
+
+
     </script>
   </body>
   </html>
